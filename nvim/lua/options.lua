@@ -8,8 +8,12 @@ opt.ignorecase = true
 opt.smartcase = true
 opt.hlsearch = true
 opt.incsearch = true
+-- パス区切りをスラッシュに統一
+opt.shellslash = true
+-- shellをgit bashにする
+opt.shell = [["C:\Program Files\Git\bin\bash.exe"]]
 -- Esc2回で検索ハイライトを消す
-key.set('n', '<Esc><Esc>', '<cmd>nohlsearch<>CR')
+key.set('n', '<Esc><Esc>', '<cmd>nohlsearch<CR>')
 -- 折り返し行でも見たまま移動する
 key.set('n', 'j', 'gj')
 key.set('n', 'k', 'gk')
