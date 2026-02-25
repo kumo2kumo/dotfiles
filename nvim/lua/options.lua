@@ -12,6 +12,9 @@ opt.incsearch = true
 opt.shellslash = true
 -- shellをgit bashにする
 opt.shell = [["C:\Program Files\Git\bin\bash.exe"]]
+-- clip boardとの連携--
+opt.clipboard = "unnamedplus"
+
 -- Esc2回で検索ハイライトを消す
 key.set('n', '<Esc><Esc>', '<cmd>nohlsearch<CR>')
 -- 折り返し行でも見たまま移動する
